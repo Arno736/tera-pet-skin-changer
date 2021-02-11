@@ -52,30 +52,32 @@ module.exports = function PetSkinChanger(mod) {
 
         100: { id:1000, zone: 3026 }, //Kelsaik
         101: { id:1001, zone: 3026 }, //MiniKelsaikFeu 'enfin mini gros'
+        102: { id:1002, zone: 3026 }, //MiniKelsaikGlace 'enfin mini gros'
+        103: { id:2000, zone: 444 }, //Bahaar
+        104: { id:1000, zone: 3104 }, //Rukmia
+        105: { id:1000, zone: 3204 }, //Rukmia
+        106: { id:1000, zone: 1023 }, //Petit Kuma
     };
-    
-    command.add(['psc', 'petskinchanger'], (y, z) => {
-        if (y) {
-            if (pets[y]) selectPet = pets[y];
-            else selectPet = { id: y, zone: ((z) ? z : 1023) };
+
+    mod.command.add(['psc', 'petskinchanger'], (y, z) => {
+        switch (y) {
+            case "enable":
+                mod.settings.enabled = !mod.settings.enabled
+                command.message('Set mod enabled to : ' + mod.settings.enabled);
+                break;
+            default:
+                if (pets[y]) {
+                    selectPet = pets[y];
+                }
+                else selectPet = { id: y, zone: ((z) ? z : 1023) };
+                break;
         }
     });
 
-
-
-    // 1000 3026 => Kelsaik
-    // 1001 3026 => MiniKelsaikFeu 'enfin mini gros'
-    // 1002 3026 => MiniKelsaikGlace 'enfin mini gros'
-
-    // 2000 444 => Bahaar
-
-    // 1000 3104 => Rukmia
-    // 1000 3204 => RukmiaHM
-
-    // 1000 1023 => Petit Kuma
-
     mod.hook('S_REQUEST_SPAWN_SERVANT', 4, (event) => {
-        if (event.ownerId != mod.game.me.gameId || !selectPet) return;
+        if (event.ownerId != mod.game.me.gameId || !selectPet || !mod.settings.enabled) return;
+
+        selectPet = pets[mod.settings.selectPetId];
 
         event.linkedNpcTemplateId =  selectPet.id;
         event.linkedNpcHuntingZoneId =  selectPet.zone;    

@@ -1,5 +1,5 @@
 const DefaultSettings = {
-    "enable": true,
+    "enabled": true,
     "petReplaceId": 10
 };
 
