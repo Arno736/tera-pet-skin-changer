@@ -68,6 +68,7 @@ module.exports = function PetSkinChanger(mod) {
             default:
                 if (pets[y]) {
                     selectPet = pets[y];
+                    mod.settings.petReplaceId = y;
                 }
                 else selectPet = { id: y, zone: ((z) ? z : 1023) };
                 break;
@@ -75,7 +76,7 @@ module.exports = function PetSkinChanger(mod) {
     });
 
     mod.hook('S_LOGIN', 14, (event) => {
-        selectPet = pets[mod.settings.selectPetId];
+        selectPet = pets[mod.settings.petReplaceId];
     });
 
     mod.hook('S_REQUEST_SPAWN_SERVANT', 4, (event) => {
