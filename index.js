@@ -28,7 +28,7 @@ module.exports = function PetSkinChanger(mod) {
         if (event.ownerId != mod.game.me.gameId || !selectPet || !mod.settings.enabled) return;
         
         if (selectPet.styleId) {
-            event.restyleId = styleId;
+            event.restyleId = selectPet.styleId;
         }
         else {
             event.linkedNpcTemplateId =  selectPet.id;

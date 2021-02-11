@@ -3,8 +3,8 @@
 	"supportUrl": "https://github.com/Arno736/tera-pet-skin-changer/issues/",
 	"name": "tera-pet-skin-changer",
 	"author": "Arno736",
-	"description": "Change pet skin.",
-	"version": "1.1",
+	"description": "Change pet skin",
+	"version": "1.2",
 	"options": {
 		"guiName": "Pet Skin Changer",
 		"settingsFile": "settings.json",
