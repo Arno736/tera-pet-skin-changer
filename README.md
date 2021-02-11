@@ -10,7 +10,7 @@ Replace pet skin by an other (Only for client)
 
 To change pet skin
 
-`/8 psc id` (see into index.js for id)
+`/8 psc id` (see into pets.js for id)
 
 To enable/disable mod
 
