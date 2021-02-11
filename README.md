@@ -3,3 +3,16 @@
 ## Usage
 
 Replace pet skin by an other (Only for client)
+
+
+
+### Commands
+
+To change pet skin
+
+`/8 psc id` (see into index.js for id)
+
+To enable/disable mod
+
+`/8 psc enable`
+
