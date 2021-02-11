@@ -63,7 +63,7 @@ module.exports = function PetSkinChanger(mod) {
         switch (y) {
             case "enable":
                 mod.settings.enabled = !mod.settings.enabled
-                command.message('Set mod enabled to : ' + mod.settings.enabled);
+                mod.command.message('Set mod enabled to : ' + mod.settings.enabled);
                 break;
             default:
                 if (pets[y]) {
