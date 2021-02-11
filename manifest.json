@@ -1,8 +1,8 @@
 {
   "files": {
     "index.js": "13699a9fb0ca1710dfe132079cff049a8423d0b1a0fbf533d43d8399ccbc26be",
-    "module.json": "14342816ebd53f3afc1e0773a4e65947bf8a9a80ff7162ef1b31b9008a66d60d",
-    "pets.js": "041af29d6008b16dd7a97d27dcdcc2eeb5b296c06c9ba99a8ca8c36dacc9e827",
+    "module.json": "fd7970c52e8545e799ba9dde6234b62a4e82d45c1190c8cd257861492b402862",
+    "pets.js": "a6fdfdde6d7eb05b96c90c3a5c30fec0d2aae1c945e0f26b954f70dc981c6fc7",
     "README.md": "4007a65299914cc56989919d4ef459a69f4a71dbcf6d20922dcbd5a8cdde2ff1",
     "settings_migrator.js": "373fc46208938d40ab0bd3cc5b467c79a23b6d613236ca9e9ca317c1383770b1"
   }

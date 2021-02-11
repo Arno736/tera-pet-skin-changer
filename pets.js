@@ -1,54 +1,54 @@
 module.exports = {
-    1: { id:80007000, zone: 1023, styleId:24 }, //Chat
-    2: { id:80011000, zone: 1023, styleId:99 }, //Mouton
-    3: { id:80022000, zone: 1023 }, //Grenouille
-    4: { id:80033000, zone: 1023, styleId:1 }, //Truc sur une toupille
-    5: { id:80034000, zone: 1023, styleId:2 }, //Machin feuillut
-    6: { id:80035000, zone: 1023, styleId:3 }, //Draka Rouge
-    7: { id:80038000, zone: 1023, styleId:4 }, //Chat tous mignion
-    8: { id:80039000, zone: 1023 }, //Marmote fantome
-    9: { id:80045000, zone: 1023, styleId:21 }, //Cochon en or
-    10: { styleId:116 }, //Champi Mimi
-    11: { id:80047000, zone: 1023, styleId:57 }, //Blob vert
-    12: { id:80048000, zone: 1023, styleId:56 }, //Cochon helokity
-    13: { id:80049000, zone: 1023, styleId:64 }, //Arbre rose
-    14: { id:80050000, zone: 1023, styleId:117 }, //Chat tabi brun je crois
-    15: { id:80051000, zone: 1023, styleId:118 }, //Chat tabi gris je crois
-    16: { id:80052000, zone: 1023, styleId:79 }, //Dkurion Epée
-    17: { id:80053000, zone: 1023 }, //Pet de base
-    18: { id:80054000, zone: 1023 }, //Pet de base
-    19: { id:80055000, zone: 1023 }, //Pet de base
-    20: { id:80056000, zone: 1023 }, //RK9
-    21: { id:80057000, zone: 1023, styleId:84 }, //Boule
+    1: { styleId:24 }, //Cat
+    2: { styleId:99 }, //Sheep
+    3: { styleId:7 }, //Frog
+    4: { styleId:1 }, //Spinning Top
+    5: { styleId:2 }, //Machin feuillut
+    6: { styleId:3 }, //Red Draka
+    7: { styleId:4 }, //Mimi Cat Flower On Head
+    8: { styleId:524 }, //Ghost Marmot (Ron)
+    9: { styleId:21 }, //Gold Pig
+    10: { styleId:116 }, //Mimi Mushroom
+    11: { styleId:57 }, //Green Slime
+    12: { styleId:56 }, //Hello Kitty Pig
+    13: { styleId:64 }, //Pink Tree
+    14: { styleId:117 }, //Red Tabby Cat
+    15: { styleId:118 }, //Black Tabby Cat
+    16: { styleId:79 }, //Dkurion Sword
+    17: { id:80053000, zone: 1023 }, //Pet de base (Base)
+    18: { id:80054000, zone: 1023 }, //Pet de base (Base)
+    19: { id:80055000, zone: 1023 }, //Pet de base (Base)
+    20: { styleId:1021 }, //RK9
+    21: { styleId:84 }, //Moon - Ball
     22: { id:80058000, zone: 1023 }, //Ello (Base)
-    23: { id:80059000, zone: 1023 }, //Riko
-    24: { id:80062000, zone: 1023, styleId:85 }, //Chauve souris
-    25: { id:80063000, zone: 1023, styleId:204 }, //Ourson
-    26: { id:80064000, zone: 1023, styleId:208 }, //Chat comme ourson
-    27: { id:80065000, zone: 1023, styleId:212 }, //Panda comme ourson
-    28: { id:80066000, zone: 1023, styleId:216 }, //Lapin Rose comme ourson
-    29: { id:80067000, zone: 1023, styleId:220 }, //Raton laveur comme ourson
-    30: { id:80068000, zone: 1023, styleId:300 }, //Truc rouge avec petite feuille
-    30: { id:80069000, zone: 1023, styleId:301 }, //Truc bleu avec petite feuille
-    31: { id:80070000, zone: 1023 }, //Draka Orange
-    32: { id:80071000, zone: 1023 }, //Draka Noir
-    33: { id:80072000, zone: 1023 }, //Draka Bleu
-    34: { id:80073000, zone: 1023 }, //Ourson noir
-    35: { id:80074000, zone: 1023 }, //Cochon d'inde
-    36: { id:80075000, zone: 1023 }, //Lezard
-    37: { id:80076000, zone: 1023 }, //Lezard2
-    38: { id:80077000, zone: 1023 }, //Petit loup
-    39: { id:80080000, zone: 1023 }, //Requin volant bleu
-    40: { id:80081000, zone: 1023 }, //Requin volant rose
-    41: { id:80082000, zone: 1023 }, //Duble corbeau
-    42: { id:80083000, zone: 1023 }, //Fantome qui pleure
-    43: { id:80084000, zone: 1023 }, //Drakon Arena
-    44: { id:80085000, zone: 1023 }, //Fenrir (Loup noir)
-    45: { id:80092000, zone: 1023 }, //Blob rose de noel
+    23: { id:80059000, zone: 1023 }, //Riko (Base)
+    24: { styleId:85 }, //Bat
+    25: { styleId:204 }, //Brown Standing Bear
+    26: { styleId:208 }, //Standing Cat
+    27: { styleId:212 }, //Standing Panda
+    28: { styleId:216 }, //Pink Standing Rabbit 
+    29: { styleId:220 }, //Standing Raccoon
+    30: { styleId:300 }, //Truc rouge avec petite feuille ?
+    30: { styleId:301 }, //Truc bleu avec petite feuille ?
+    31: { id:80070000, zone: 1023 }, //Draka Orange ?
+    32: { id:80071000, zone: 1023 }, //Draka Noir ?
+    33: { id:80072000, zone: 1023 }, //Draka Bleu ?
+    34: { styleId:504 }, //Black Standing Bear
+    35: { styleId:500 }, //Standing GuineaPig
+    36: { styleId:508 }, //Red Lizard
+    37: { styleId:512 }, //Blue Lizard
+    38: { styleId:519 }, //Standing Wolf
+    39: { styleId:529 }, //Blue Flying Shark
+    40: { styleId:534 }, //Pink Flying Shark
+    41: { styleId:549 }, //Double corbeau
+    42: { styleId:560 }, //Crying Ghost
+    43: { styleId:1023 }, //Kalligar
+    44: { styleId:574 }, //Fenrir (Black Wolf)
+    45: { styleId:570 }, //Christmas Pink Slime
+
 
     46: { styleId:5 }, // Belier
     47: { styleId:6 }, // Plante Carnivore
-    48: { styleId:7 }, // Grenouille
     49: { styleId:8 }, // Euhm chat sur patte
     50: { styleId:9 }, // Euhm chat sur patte
     51: { styleId:10 }, // Fantome
@@ -72,8 +72,13 @@ module.exports = {
     69: { styleId:58 }, // Draka violet corne grise
     70: { styleId:200 }, // Dkurion poele
     71: { styleId:202 }, // MiniPopori PUBG
+    73: { styleId:602 }, // Kaiman
+    74: { styleId:609 }, // Paraisseux
+    75: { styleId:610 }, // Melon (Pasteque)
+    76: { styleId:620 }, // Lapin merveilleux
+    77: { styleId:1004 }, // Sorciere
 
-
+    //Bodyblocking
     100: { id:1000, zone: 3026 }, //Kelsaik
     101: { id:1001, zone: 3026 }, //MiniKelsaikFeu 'enfin mini gros'
     102: { id:1002, zone: 3026 }, //MiniKelsaikGlace 'enfin mini gros'
@@ -81,4 +86,4 @@ module.exports = {
     104: { id:1000, zone: 3104 }, //Rukmia
     105: { id:1000, zone: 3204 }, //Rukmia
     106: { id:1000, zone: 1023 }, //Petit Kuma
-};//305
+};//1000 + Riko/Ello...
