@@ -74,11 +74,13 @@ module.exports = function PetSkinChanger(mod) {
         }
     });
 
+    mod.hook('S_LOGIN', 14, (event) => {
+        selectPet = pets[mod.settings.selectPetId];
+    });
+
     mod.hook('S_REQUEST_SPAWN_SERVANT', 4, (event) => {
         if (event.ownerId != mod.game.me.gameId || !selectPet || !mod.settings.enabled) return;
-
-        selectPet = pets[mod.settings.selectPetId];
-
+        
         event.linkedNpcTemplateId =  selectPet.id;
         event.linkedNpcHuntingZoneId =  selectPet.zone;    
 
