@@ -1,12 +1,12 @@
 {
 	"servers": ["https://raw.githubusercontent.com/Arno736/tera-pet-skin-changer/master/"],
-	"supportUrl": "https://raw.githubusercontent.com/Arno736/tera-pet-skin-changer/master/",
+	"supportUrl": "https://github.com/Arno736/tera-pet-skin-changer/issues/",
 	"name": "tera-pet-skin-changer",
 	"author": "Arno736",
 	"description": "Change pet skin.",
 	"version": "1.0",
 	"options": {
-		"guiName": "Tera Pet Skin Changer",
+		"guiName": "Pet Skin Changer",
 		"settingsFile": "settings.json",
 		"settingsMigrator": "settings_migrator.js",
 		"settingsVersion": 1
